@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ElementCreationMenuModel:Folder xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ElementCreationMenuModel="http://www.eclipse.org/papyrus/infra/newchild/elementcreationmenumodel" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmi:id="_-5Z5sN90EeOzMY8AIRUeqQ" label="Papyrus-UML추가">
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" xmi:id="_02qW7N-mEeOG_N6WMq4D6g" label="패키지" displayAllRoles="false">
+    <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Package"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:Separator"/>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="액터">
+    <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Actor"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="유스 케이스" displayAllRoles="false">
+    <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.UseCase"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:Separator"/>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" xmi:id="_02pvtN-mEeOG_N6WMq4D6g" label="클래스" displayAllRoles="false">
+    <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" xmi:id="_02qW89-mEeOG_N6WMq4D6g" label="속성" displayAllRoles="false">
+    <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Property"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" xmi:id="_02qWz9-mEeOG_N6WMq4D6g" label="인터페이스" displayAllRoles="false">
+    <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Interface"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" xmi:id="_02qW6d-mEeOG_N6WMq4D6g" label="오퍼레이션" displayAllRoles="false">
+    <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Operation"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" xmi:id="_02qW7d-mEeOG_N6WMq4D6g" label="파라미터" displayAllRoles="false">
+    <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Parameter"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:Separator"/>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="협업" displayAllRoles="false">
+    <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Collaboration"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="상호작용" displayAllRoles="false">
+    <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Interaction"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:Separator"/>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" xmi:id="_02qXFN-mEeOG_N6WMq4D6g" label="스테레오타입" displayAllRoles="false">
+    <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Stereotype"/>
+  </menu>
+</ElementCreationMenuModel:Folder>

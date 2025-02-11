@@ -1,0 +1,13 @@
+# Tracing options for the org.eclipse.papyrus.uml.diagram.sequence plug-in
+
+# Common issues
+org.eclipse.papyrus.uml.diagram.sequence/debug=true
+
+# Visual IDs
+org.eclipse.papyrus.uml.diagram.sequence/debug/visualID=false
+
+# Trace Logging
+org.eclipse.papyrus.uml.diagram.sequence/debug/trace=true
+org.eclipse.papyrus.uml.diagram.sequence/debug/SequenceDebug=true
+org.eclipse.papyrus.uml.diagram.sequence/debug/SequenceDebugGrid=true
+org.eclipse.papyrus.uml.diagram.sequence/debug/SequenceDebugUtil=true
